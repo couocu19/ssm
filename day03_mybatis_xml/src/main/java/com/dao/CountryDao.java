@@ -8,9 +8,11 @@ public interface CountryDao {
 
     List<Country> getAll();
 
-    void addCountry(Country c);
+    //向数据库中插入数据并返回主键
+    int addCountry(Country c);
 
-    void deleteCountry(int id);
+    //通过主键删除
+    int deleteCountry(int id);
 
     void updateCountry(int id);
 
