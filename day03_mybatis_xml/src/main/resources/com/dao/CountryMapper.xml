@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--定义了当前XML的命名空间-->
+<mapper namespace="com.dao.CountryDao">
+    <!--用于设置返回值的类型和映射关系-->
+    <resultMap id="countryMap" type="com.dao.CountryDao">
+        <!--id:命名空间中的唯一标识符，可用来代表这条语句-->
+        <id property="id" column="id"/>
+        <result property="countryName" column="country_name"/>
+        <result property="countryView" column="country_view"/>
+
+    </resultMap>
+
+    <select id="getAll" resultType="com.pojo.Country">
+       select * from country
+    </select>
+
+</mapper>
