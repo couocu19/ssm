@@ -14,11 +14,9 @@ import java.io.InputStream;
  */
 public class BaseMapperTest {
     private static SqlSessionFactory sqlSessionFactory;
-    //用于在测试方法之前执行
     @BeforeClass
     public static void init(){
         try {
-            //读取资源文件
             InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
             //
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
@@ -30,7 +28,6 @@ public class BaseMapperTest {
     }
 
     public SqlSession getSqlSession(){
-        //获取代理对象
         return sqlSessionFactory.openSession();
     }
 

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day02_mybatis/day02_mybatis.iml" filepath="$PROJECT_DIR$/day02_mybatis/day02_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/day03_mybatis_xml/day03_mybatis_xml.iml" filepath="$PROJECT_DIR$/day03_mybatis_xml/day03_mybatis_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_mybatis_dynamic/day04_mybatis_dynamic.iml" filepath="$PROJECT_DIR$/day04_mybatis_dynamic/day04_mybatis_dynamic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ssm.iml" filepath="$PROJECT_DIR$/.idea/ssm.iml" />
     </modules>
   </component>

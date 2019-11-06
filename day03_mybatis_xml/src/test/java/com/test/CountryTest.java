@@ -28,8 +28,8 @@ public class CountryTest extends BaseMapperTest {
         try {
             CountryDao countryDao = session.getMapper(CountryDao.class);
             Country country = new Country();
-            country.setCityName("太原");
-            country.setCityView("绵山");
+            country.setCityName("北京");
+            country.setCityView("天坛");
             int result = countryDao.addCountry(country);
             //只插入一条数据
             Assert.assertEquals(1,result);
@@ -108,6 +108,15 @@ public class CountryTest extends BaseMapperTest {
         }
 
     }
+    @Test
+    public void testSelectView(){
+        SqlSession session = getSqlSession();
+        CountryDao countryDao = session.getMapper(CountryDao.class);
 
+        List<Country> list = countryDao.selectView("北京","天坛");
+        printList(list);
+
+
+    }
 
 }

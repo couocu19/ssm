@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/day02_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/day03_mybatis_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_mybatis_dynamic/pom.xml" />
       </list>
     </option>
   </component>

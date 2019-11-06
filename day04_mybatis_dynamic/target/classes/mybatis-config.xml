@@ -4,20 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
-    <!--指定使用log4j输出日志-->
-    <!--<settings>-->
-        <!--<setting name="logImpl" value="LOG4J"/>-->
-    <!--</settings>-->
-
-    <!--在实际开发中可以直接引入jdbc的配置文件在properties标签中使用-->
     <properties resource="jdbc.properties"/>
-
-
     <environments default="mysql">
         <environment id="mysql">
-            <!--配置事务管理器-->
             <transactionManager type="JDBC"/>
-            <!--从池中获取一个连接来使用·-->
             <dataSource type="POOLED">
                 <property name="driver" value="${driver}"/>
                 <property name="url" value="${url}"/>

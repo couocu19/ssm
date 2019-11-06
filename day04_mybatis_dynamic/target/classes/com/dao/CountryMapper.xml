@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.CountryDao">
+    <resultMap id="countryMap" type="com.pojo.Country">
+        <id property="id" column="id"/>
+        <result property="cityName" column="city_name"/>
+        <result property="cityView" column="city_view"/>
+    </resultMap>
+
+    <select id="getAll" resultMap="countryMap">
+        select * from country
+    </select>
+
+    <select id="getCountry" resultMap="countryMap">
+        select * from country where id = #{id}
+    </select>
+
+    <select id="selectView" resultMap="countryMap">
+        select * from country where city_name = #{cityName} and city_view = #{cityView}
+    </select>
+
+    <select id="getByName" resultMap="countryMap" parameterType="string">
+       select * from country where city_name like #{cityName}
+
+    </select>
+
+    <select id="findByVo" parameterType="com.pojo.QueryVo" resultMap="countryMap">
+       select * from country where city_name like #{country.cityName}
+    </select>
+
+
+    <!--如果是sql语句中的内容，则无关大小写-->
+    <select id="findByCondition" resultMap="countryMap">
+       select * from country
+        <where>
+          <if test="cityName != null">
+             and city_name = #{cityName}
+          </if>
+          <if test="cityView !=null" >
+              and city_view = #{cityView}
+          </if>
+        </where>
+
+    </select>
+
+    <!--根据query中的id集合实现查询用户类-->
+
+    <select id="findInIds" resultMap="countryMap" parameterType="com.pojo.QueryVo">
+       select * from country
+        <where>
+            <if test="ids != null and ids.size()>0">
+                <foreach collection="ids" open="and id in (" close=")" item="id" separator=",">
+                  #{id}
+                </foreach>
+            </if>
+        </where>
+
+    </select>
+
+
+</mapper>

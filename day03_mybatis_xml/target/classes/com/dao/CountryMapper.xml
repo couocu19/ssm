@@ -31,4 +31,8 @@
     <delete id="deleteCountry">
         delete from country where id = #{id}
     </delete>
+
+    <select id="selectView" resultMap="countryMap">
+        select * from country where city_name = #{cityName} and city_view = #{cityView}
+    </select>
 </mapper>
