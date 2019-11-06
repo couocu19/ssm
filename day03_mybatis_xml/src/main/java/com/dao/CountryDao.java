@@ -14,7 +14,7 @@ public interface CountryDao {
     //通过主键删除
     int deleteCountry(int id);
 
-    void updateCountry(int id);
+     int updateCountry(Country country);
 
     Country getCountry(int id);
 }

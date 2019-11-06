@@ -5,7 +5,7 @@ import com.pojo.Country;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Assert;
 import org.junit.Test;
-import sun.misc.ClassFileTransformer;
+
 
 import java.util.List;
 
@@ -74,11 +74,12 @@ public class CountryTest extends BaseMapperTest {
             //修改用户名
             country.setCityView("天安门");
            //只更新一条数据
-//            int result = countryDao.updateCountry(1);
-//            Assert.assertEquals(1,);
-            country = countryDao.getCountry(1);
-//            Assert.assertEquals("天安门",country.getCityName());
-            System.out.println(country.getCityView());
+            int result = countryDao.updateCountry(country);
+            Assert.assertEquals(1,result);
+             country = countryDao.getCountry(1);
+            //System.out.println(country.getCityName());
+            Assert.assertEquals("天安门",country.getCityView());
+          //  System.out.println(country.getCityView());
         } finally {
             session.rollback();
             session.close();
@@ -89,10 +90,11 @@ public class CountryTest extends BaseMapperTest {
         SqlSession session = getSqlSession();
         try {
             CountryDao countryDao = session.getMapper(CountryDao.class);
-            Country country = countryDao.getCountry(1);
+            Country country = countryDao.getCountry(2);
             Assert.assertNotNull(country);
-            Assert.assertEquals(1,countryDao.deleteCountry(1));
-//            Assert.assertNull(country);
+            Assert.assertEquals(1,countryDao.deleteCountry(2));
+            System.out.println(countryDao.deleteCountry(2));
+            //Assert.assertNull(country);
         } finally {
             session.rollback();
             session.close();
