@@ -59,6 +59,22 @@
 
     </select>
 
+    <insert id="addByList">
+        insert into country (city_name,city_view) values
+        <foreach collection="countries" item="country" separator=",">
+            (#{country.cityName},#{country.cityView})
+        </foreach>
+    </insert>
+
+    <update id="updateByMap">
+        update country set
+          <!--index的值对应Map结构中的key,item的值对应Map结构中的value值-->
+          <foreach collection="_parameter" item="val" index="cityCondition" separator=",">
+             ${cityCondition} = #{val}
+          </foreach>
+        where id = #{id}
+
+    </update>
 
      <!--抽取重复的sql语句-->
     <sql id="defaultUser">

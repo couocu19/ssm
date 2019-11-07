@@ -5,6 +5,7 @@ import com.pojo.QueryVo;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 public interface CountryDao {
 
@@ -21,6 +22,14 @@ public interface CountryDao {
     List<Country> findByCondition(Country country);
 
     List<Country> findInIds(QueryVo vo);
+
+    //通过list实现批量注入
+    //注意要在注解中加上对应在sql语句中的参数名
+    void addByList(@Param("countries") List<Country> list);
+
+    //通过Map类型更新数据
+
+    void updateByMap(Map<String,Object> map);
 
 
 }

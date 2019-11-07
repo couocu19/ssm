@@ -7,6 +7,16 @@ public class QueryVo {
     private Country country;
     private List<Integer> ids;
 
+    private List<Country> countries;
+
+    public List<Country> getCountries() {
+        return countries;
+    }
+
+    public void setCountries(List<Country> countries) {
+        this.countries = countries;
+    }
+
     public Country getCountry() {
         return country;
     }

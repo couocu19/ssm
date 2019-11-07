@@ -8,7 +8,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class CountryTest extends BaseMapperTest {
     @Test
@@ -37,12 +39,7 @@ public class CountryTest extends BaseMapperTest {
 
 
     }
-    private void printList(List<Country> list){
-        for(Country country:list){
-            System.out.println(country.getId()+": "+country.getCityName()+"-->"+country.getCityView());
-        }
 
-    }
     @Test
     public void testSelectView(){
         SqlSession session = getSqlSession();
@@ -121,6 +118,59 @@ public class CountryTest extends BaseMapperTest {
         vo.setIds(ids);
         List<Country> list = countryDao.findInIds(vo);
         printList(list);
+
+    }
+
+    @Test
+    public void testInsertByList(){
+        SqlSession session = getSqlSession();
+        try {
+            CountryDao countryDao = session.getMapper(CountryDao.class);
+            //QueryVo vo = new QueryVo();
+            List<Country> countries = new ArrayList<Country>();
+            Country c1 = new Country("上海","迪士尼乐园");
+            Country c2 = new Country("西安","兵马俑");
+            countries.add(c1);
+            countries.add(c2);
+            countryDao.addByList(countries);
+
+        } finally {
+            session.commit();
+            session.close();
+        }
+
+
+    }
+
+
+    @Test
+    public void testUpdateByMap(){
+        SqlSession session = getSqlSession();
+        try {
+            CountryDao countryDao = session.getMapper(CountryDao.class);
+
+            Map<String,Object> map = new HashMap<String, Object>();
+            //查询条件同样是更新字段，必须保证该值存在
+            map.put("id",11);
+            //要更新的其它字段
+            map.put("city_view","清华大学");
+            session.commit();
+            //更新数据
+            countryDao.updateByMap(map);
+            Country country = countryDao.getCountry(11);
+            System.out.println(country.getCityView());
+
+        } finally {
+            session.close();
+        }
+
+
+    }
+
+    private void printList(List<Country> list){
+        for(Country country:list){
+            System.out.println(country.getId()+": "+country.getCityName()+"-->"+country.getCityView());
+        }
 
     }
 
