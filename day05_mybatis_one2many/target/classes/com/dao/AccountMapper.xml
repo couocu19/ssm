@@ -8,4 +8,11 @@
         select * from account
     </select>
 
+    <!--查询所有账户以及其对应的用户信息-->
+    <select id="findAllAccount" resultType="com.pojo.AccountUser">
+        select a.*,u.username,u.address from account a,user u where u.id = a.id
+
+    </select>
+
+
 </mapper>
