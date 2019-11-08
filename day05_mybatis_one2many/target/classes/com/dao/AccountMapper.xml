@@ -4,13 +4,30 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dao.AccountDao">
 
+    <resultMap id="accountUserMap" type="com.pojo.Account">
+        <id property="id" column="id"/>
+        <result property="uid" column="uid"/>
+        <result property="money" column="money"/>
+
+        <!--配置主表实体类-->
+
+        <!--property为从表中定义的主表的试题类型的类名,javatype为必须填的一项，说明其实体类型的指向-->
+        <association property="user"  javaType="com.pojo.User">
+            <id property="id" column="id"/>
+            <result property="username" column="username"/>
+            <result property="birthday" column="birthday"/>
+            <result property="sex" column="sex"/>
+            <result property="address" column="address"/>
+        </association>
+
+    </resultMap>
     <select id="findAll" resultType="com.pojo.Account">
         select * from account
     </select>
 
     <!--查询所有账户以及其对应的用户信息-->
-    <select id="findAllAccount" resultType="com.pojo.AccountUser">
-        select a.*,u.username,u.address from account a,user u where u.id = a.id
+    <select id="findAllAccountAndUser" resultMap="accountUserMap">
+        select a.*,u.* from account a,user u where u.id = a.id
 
     </select>
 

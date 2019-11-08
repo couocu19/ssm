@@ -7,6 +7,18 @@ public class Account implements Serializable {
     private int uid;
     private double money;
 
+    //常用的方式
+    //从表实体类中定义主表的实体类
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     public int getId() {
         return id;
     }
@@ -45,6 +57,17 @@ public class Account implements Serializable {
         this.uid = uid;
         this.money = money;
     }
+
+
+//    @Override
+//    public String toString() {
+//        return "Account{" +
+//                "id=" + id +
+//                ", uid=" + uid +
+//                ", money=" + money +
+//                ", user=" + user +
+//                '}';
+//    }
 
 
     @Override

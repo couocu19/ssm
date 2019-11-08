@@ -4,12 +4,32 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dao.UserDao">
 
-    <select id="findAll" resultType="com.pojo.User">
-        select * from user
-    </select>
+    <resultMap id="userAccountMap" type="com.pojo.User">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="birthday" column="birthday"/>
+        <result property="sex" column="sex"/>
+        <result property="address" column="address"/>
+        <!--配置从表的集合类,实现一对多-->
+        <collection property="accounts" ofType="com.pojo.Account" column="id">
+            <!--在一对多表查询时，如果从表和主表的id值相同，则要修改从表id的别名，如果不设置则只能显示一条返回结果-->
+            <id property="id" column="aid"/>
+            <result property="uid" column="uid"/>
+            <result property="money" column="money"/>
+        </collection>
+
+    </resultMap>
+
+    <!--<select id="findAll" resultType="com.pojo.User">-->
+        <!--select * from user-->
+    <!--</select>-->
 
     <select id="getById" resultType="com.pojo.User">
         select * from user where id = #{id}
+    </select>
+
+    <select id="findAll" resultMap="userAccountMap">
+        select u.*,a.id as aid,a.uid,a.money from user u left outer join account a on u.id = a.uid
     </select>
 
 </mapper>

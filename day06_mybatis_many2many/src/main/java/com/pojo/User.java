@@ -11,17 +11,6 @@ public class User implements Serializable {
         private char sex;
         private String address;
 
-        //从主表中定义从表的关联集合类型
-
-        private List<Account> accounts;
-
-    public List<Account> getAccounts() {
-        return accounts;
-    }
-
-    public void setAccounts(List<Account> accounts) {
-        this.accounts = accounts;
-    }
 
     public int getId() {
         return id;

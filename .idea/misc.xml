@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/day03_mybatis_xml/pom.xml" />
         <option value="$PROJECT_DIR$/day04_mybatis_dynamic/pom.xml" />
         <option value="$PROJECT_DIR$/day05_mybatis_one2many/pom.xml" />
+        <option value="$PROJECT_DIR$/day06_mybatis_many2many/pom.xml" />
       </list>
     </option>
   </component>

@@ -10,6 +10,7 @@
         <module name="day03_mybatis_xml" />
         <module name="day04_mybatis_dynamic" />
         <module name="day05_mybatis_one2many" />
+        <module name="day06_mybatis_many2many" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="day03_mybatis_xml" target="1.5" />
       <module name="day04_mybatis_dynamic" target="1.5" />
       <module name="day05_mybatis_one2many" target="1.5" />
+      <module name="day06_mybatis_many2many" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

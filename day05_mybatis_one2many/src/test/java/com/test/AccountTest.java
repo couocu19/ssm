@@ -32,13 +32,22 @@ public class AccountTest extends BaseTest {
         }
     }
 
-
-
     private void printList(List<Account> list){
 
         for(Account a:list){
             System.out.println(a);
         }
+
+    }
+
+    @Test
+    public void testFindByAccountAndUserResultMap(){
+        SqlSession session = getSqlSession();
+        AccountDao accountDao = session.getMapper(AccountDao.class);
+
+        List<Account> list = accountDao.findAllAccountAndUser();
+        printList(list);
+
 
     }
 
