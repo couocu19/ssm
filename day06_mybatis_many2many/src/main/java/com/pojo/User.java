@@ -11,6 +11,15 @@ public class User implements Serializable {
         private char sex;
         private String address;
 
+        private List<Role> roles;
+
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
+    }
 
     public int getId() {
         return id;

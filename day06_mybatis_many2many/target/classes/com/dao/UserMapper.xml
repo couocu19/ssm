@@ -11,8 +11,6 @@
         <result property="sex" column="sex"/>
         <result property="address" column="address"/>
         <collection property="roles" ofType="com.pojo.Role" column="id">
-            <!--因为在查询数据库的时候两张关联表的id名称重复了，所以要将其中一个表的id值设置成别名-->
-            <!--同时在数据库中也要讲column的值设置成别名才能保证结果集全部显示出来-->
             <id property="id" column="rid"/>
             <result property="roleName" column="role_name"/>
             <result property="roleDesc" column="role_desc"/>
