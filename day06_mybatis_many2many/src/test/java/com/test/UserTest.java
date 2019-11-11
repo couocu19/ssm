@@ -1,7 +1,6 @@
 package com.test;
 
 
-import com.dao.RoleDao;
 import com.dao.UserDao;
 import com.pojo.Role;
 import com.pojo.User;

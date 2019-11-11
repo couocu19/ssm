@@ -11,14 +11,21 @@
         <module name="day04_mybatis_dynamic" />
         <module name="day05_mybatis_one2many" />
         <module name="day06_mybatis_many2many" />
+        <module name="day07_spring_init" />
+        <module name="day07_spring_intit1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="day02_mybatis" target="1.5" />
+      <module name="day02_spring_init" target="1.5" />
       <module name="day03_mybatis_xml" target="1.5" />
       <module name="day04_mybatis_dynamic" target="1.5" />
       <module name="day05_mybatis_one2many" target="1.5" />
       <module name="day06_mybatis_many2many" target="1.5" />
+      <module name="day07_spring_init" target="1.5" />
+      <module name="day07_spring_init1" target="1.7" />
+      <module name="day07_spring_intit1" target="1.5" />
+      <module name="day07_springinit1" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

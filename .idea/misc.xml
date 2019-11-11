@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/day07_spring_init1" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -11,6 +14,8 @@
         <option value="$PROJECT_DIR$/day04_mybatis_dynamic/pom.xml" />
         <option value="$PROJECT_DIR$/day05_mybatis_one2many/pom.xml" />
         <option value="$PROJECT_DIR$/day06_mybatis_many2many/pom.xml" />
+        <option value="$PROJECT_DIR$/day07_spring_init/pom.xml" />
+        <option value="$PROJECT_DIR$/day07_spring_intit1/pom.xml" />
       </list>
     </option>
   </component>

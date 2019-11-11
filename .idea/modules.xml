@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/day04_mybatis_dynamic/day04_mybatis_dynamic.iml" filepath="$PROJECT_DIR$/day04_mybatis_dynamic/day04_mybatis_dynamic.iml" />
       <module fileurl="file://$PROJECT_DIR$/day05_mybatis_one2many/day05_mybatis_one2many.iml" filepath="$PROJECT_DIR$/day05_mybatis_one2many/day05_mybatis_one2many.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06_mybatis_many2many/day06_mybatis_many2many.iml" filepath="$PROJECT_DIR$/day06_mybatis_many2many/day06_mybatis_many2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07_spring_init/day07_spring_init.iml" filepath="$PROJECT_DIR$/day07_spring_init/day07_spring_init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07_spring_intit1/day07_spring_intit1.iml" filepath="$PROJECT_DIR$/day07_spring_intit1/day07_spring_intit1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ssm.iml" filepath="$PROJECT_DIR$/.idea/ssm.iml" />
     </modules>
   </component>
