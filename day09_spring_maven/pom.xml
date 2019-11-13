@@ -43,6 +43,14 @@
             <artifactId>spring-aop</artifactId>
             <version>5.2.0.RELEASE</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jcl -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jcl</artifactId>
+            <version>5.2.1.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 

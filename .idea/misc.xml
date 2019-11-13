@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/day07_spring_intit1/pom.xml" />
         <option value="$PROJECT_DIR$/day08_spring_decreaseCoupling/pom.xml" />
         <option value="$PROJECT_DIR$/day09_spring_maven/pom.xml" />
+        <option value="$PROJECT_DIR$/day09_spring_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/day09_spring_example/pom.xml" />
       </list>
     </option>
   </component>

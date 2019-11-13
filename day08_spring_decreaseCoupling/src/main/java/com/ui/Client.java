@@ -25,6 +25,10 @@ public class Client {
         AccountService as1 = (AccountService)ac.getBean("accountService2");
         System.out.println(as1);
 
+        AccountService as2 = (AccountService)ac.getBean("accountService3");
+        System.out.println(as2);
+
+
 
 
     }

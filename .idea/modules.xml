@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/day07_spring_init/day07_spring_init.iml" filepath="$PROJECT_DIR$/day07_spring_init/day07_spring_init.iml" />
       <module fileurl="file://$PROJECT_DIR$/day07_spring_intit1/day07_spring_intit1.iml" filepath="$PROJECT_DIR$/day07_spring_intit1/day07_spring_intit1.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08_spring_decreaseCoupling/day08_spring_decreaseCoupling.iml" filepath="$PROJECT_DIR$/day08_spring_decreaseCoupling/day08_spring_decreaseCoupling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09_spring_annotation/day09_spring_annotation.iml" filepath="$PROJECT_DIR$/day09_spring_annotation/day09_spring_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09_spring_example/day09_spring_example.iml" filepath="$PROJECT_DIR$/day09_spring_example/day09_spring_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/day09_spring_maven/day09_spring_maven.iml" filepath="$PROJECT_DIR$/day09_spring_maven/day09_spring_maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ssm.iml" filepath="$PROJECT_DIR$/.idea/ssm.iml" />
     </modules>

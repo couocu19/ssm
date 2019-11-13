@@ -14,6 +14,8 @@
         <module name="day07_spring_init" />
         <module name="day07_spring_intit1" />
         <module name="day08_spring_decreaseCoupling" />
+        <module name="day09_spring_annotation" />
+        <module name="day09_spring_example" />
         <module name="day09_spring_maven" />
       </profile>
     </annotationProcessing>
@@ -29,6 +31,8 @@
       <module name="day07_spring_intit1" target="1.5" />
       <module name="day07_springinit1" target="1.5" />
       <module name="day08_spring_decreaseCoupling" target="1.5" />
+      <module name="day09_spring_annotation" target="1.5" />
+      <module name="day09_spring_example" target="1.5" />
       <module name="day09_spring_maven" target="1.5" />
     </bytecodeTargetLevel>
   </component>

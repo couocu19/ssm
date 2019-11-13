@@ -3,7 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
-
     <!--spring的依赖注入
        依赖注入：
          Dependency Injection
@@ -45,5 +44,57 @@
         <property name="birthday" ref="now"/>
      </bean>
 
+    <!--复杂类型的注入/集合类型的注入
+       用于给List结构注入的标签：
+           list，array，set
+       用于给Map结构集合注入的标签：
+           map，props
+       总结：结构相同，标签可以互换
+    -->
+
+    <bean id="accountService3" class="com.service.impl.AccountServiceImpl3">
+        <property name="list">
+            <list>
+                <value>aaa</value>
+                <value>aab</value>
+                <value>aac</value>
+                <value>aad</value>
+            </list>
+        </property>
+        <property name="strings">
+            <list>
+                <value>aaa</value>
+                <value>aab</value>
+                <value>aac</value>
+                <value>aad</value>
+            </list>
+        </property>
+        <property name="set">
+            <list>
+                <value>aaa</value>
+                <value>aab</value>
+                <value>aac</value>
+                <value>aad</value>
+            </list>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="aaa" value="bbb"/>
+                <entry key="aac" value="bbb"/>
+                <entry key="aab" value="bbb"/>
+                <entry key="aad" value="bbb"/>
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="ppp">kkk</prop>
+                <prop key="ppt">111</prop>
+                <prop key="ppy">222</prop>
+            </props>
+        </property>
+
+    </bean>
 
 </beans>

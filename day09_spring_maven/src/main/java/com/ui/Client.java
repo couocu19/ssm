@@ -18,11 +18,8 @@ public class Client {
         ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //根据id获取bean对象
         AccountService as = (AccountService)ac.getBean("accountService");
-        //System.out.println(as);
-        as.saveAccount();
-
-        //必须手动关闭容器才可以销毁
-       // ac.close();
+         System.out.println(as);
+         as.saveAccount();
 
     }
 }
