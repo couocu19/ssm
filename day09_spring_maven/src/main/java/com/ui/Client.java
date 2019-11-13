@@ -2,7 +2,6 @@ package com.ui;
 
 
 import com.service.AccountService;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -19,13 +18,11 @@ public class Client {
         ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //根据id获取bean对象
         AccountService as = (AccountService)ac.getBean("accountService");
-        System.out.println(as);
+        //System.out.println(as);
         as.saveAccount();
 
-        AccountService as1 = (AccountService)ac.getBean("accountService2");
-        System.out.println(as1);
-
-
+        //必须手动关闭容器才可以销毁
+       // ac.close();
 
     }
 }
