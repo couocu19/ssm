@@ -4,17 +4,18 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--配置Service-->
+    <!--通过set方法配置Service-->
     <bean id="accountService" class="com.service.impl.AccountServiceImpl">
         <property name="accountDao" ref="accountDao"></property>
 
     </bean>
-    <!--配置dao对象-->
+    <!--通过set方法配置dao对象-->
     <bean id="accountDao" class="com.dao.impl.AccountDaoImpl">
         <property name="runner" ref="runner"></property>
-
     </bean>
+
     <!--配置QueryRunner-->
+    <!--构造方法注入Bean 的属性值或依赖的对象，它保证了 Bean 实例在实例化后就可以使用。-->
     <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
         <constructor-arg name="ds" ref="dataSource"></constructor-arg>
     </bean>
@@ -25,7 +26,6 @@
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/coucou?serverTimezone=UTC"/>
         <property name="user" value="root"/>
         <property name="password" value="123456"/>
-
     </bean>
 
 

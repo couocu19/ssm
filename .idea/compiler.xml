@@ -17,6 +17,9 @@
         <module name="day09_spring_annotation" />
         <module name="day09_spring_example" />
         <module name="day09_spring_maven" />
+        <module name="day10_spring_anno_example" />
+        <module name="day10_spring_aop" />
+        <module name="day10_spring_new_anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +37,9 @@
       <module name="day09_spring_annotation" target="1.5" />
       <module name="day09_spring_example" target="1.5" />
       <module name="day09_spring_maven" target="1.5" />
+      <module name="day10_spring_anno_example" target="1.5" />
+      <module name="day10_spring_aop" target="1.5" />
+      <module name="day10_spring_new_anno" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

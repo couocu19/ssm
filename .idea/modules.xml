@@ -13,6 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/day09_spring_annotation/day09_spring_annotation.iml" filepath="$PROJECT_DIR$/day09_spring_annotation/day09_spring_annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/day09_spring_example/day09_spring_example.iml" filepath="$PROJECT_DIR$/day09_spring_example/day09_spring_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/day09_spring_maven/day09_spring_maven.iml" filepath="$PROJECT_DIR$/day09_spring_maven/day09_spring_maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10_spring_anno_example/day10_spring_anno_example.iml" filepath="$PROJECT_DIR$/day10_spring_anno_example/day10_spring_anno_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10_spring_aop/day10_spring_aop.iml" filepath="$PROJECT_DIR$/day10_spring_aop/day10_spring_aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10_spring_new_anno/day10_spring_new_anno.iml" filepath="$PROJECT_DIR$/day10_spring_new_anno/day10_spring_new_anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ssm.iml" filepath="$PROJECT_DIR$/.idea/ssm.iml" />
     </modules>
   </component>

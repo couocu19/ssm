@@ -18,9 +18,6 @@ public class AccountDaoImpl implements AccountDao {
         this.runner = runner;
     }
 
-    public QueryRunner getRunner() {
-        return runner;
-    }
 
     public AccountDaoImpl(){
 
@@ -57,7 +54,7 @@ public class AccountDaoImpl implements AccountDao {
 
     public void updataAccount(Account a) {
         try {
-            runner.update("update account set (name,money) values (?,?)", a.getName(),a.getMoney());
+            runner.update("update account set name = ? , money = ? where id = ?", a.getName(),a.getMoney(),a.getId());
         } catch (Exception e) {
             e.printStackTrace();
         }
