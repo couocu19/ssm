@@ -7,50 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b2b1213-08b4-4e4c-bb58-bce2358bdf63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_anno_example/day10_spring_anno_example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_anno_example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_anno_example/src/main/java/com/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_anno_example/src/main/java/com/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_anno_example/src/main/java/com/pojo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_anno_example/src/main/java/com/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_anno_example/src/main/java/com/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_anno_example/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_anno_example/src/test/java/com/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_aop/day10_spring_aop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_aop/src/main/java/com/utils/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_aop/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/day10_spring_new_anno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/pojo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/utils/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/utils/TransactionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_spring_new_anno/src/test/java/com/test/AccountServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_spring_aop/src/test/java/com/text/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_spring_example/src/main/java/com/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_spring_example/src/main/java/com/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_spring_example/src/main/java/com/pojo/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_spring_example/src/main/java/com/pojo/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_spring_example/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day09_spring_example/src/main/resources/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_spring_example/src/test/java/com/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_spring_example/src/test/java/com/test/AccountServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_spring_example/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day09_spring_example/target/classes/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_spring_example/target/classes/com/dao/impl/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/day09_spring_example/target/classes/com/dao/impl/AccountDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_spring_example/target/classes/com/pojo/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/day09_spring_example/target/classes/com/pojo/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_spring_example/target/test-classes/com/test/AccountServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/day09_spring_example/target/test-classes/com/test/AccountServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_spring_maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day09_spring_maven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_spring_aop/day10_spring_aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day10_spring_aop/day10_spring_aop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_spring_aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day10_spring_aop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_spring_aop/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day10_spring_aop/src/main/resources/bean.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/day02_mybatis/target/" />
     <ignored path="$PROJECT_DIR$/day03_mybatis_xml/target/" />
@@ -78,31 +39,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/pom.xml">
+        <entry file="file://$PROJECT_DIR$/day10_spring_aop/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="568">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/utils/ConnectionUtils.java">
+        <entry file="file://$PROJECT_DIR$/day10_spring_anno_example/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="488">
+              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="59" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/impl/AccountServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/test/java/com/text/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="13" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#186#198#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/utils/TransactionManager.java">
+        <entry file="file://$PROJECT_DIR$/day10_spring_anno_example/src/main/resources/bean.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/utils/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day09_spring_maven/src/main/resources/bean.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day09_spring_annotation/src/main/resources/bean.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day09_spring_annotation/src/main/java/com/service/impl/AccountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -111,60 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_spring_aop/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/AccountService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/impl/AccountServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/utils/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/src/resources/bean.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_spring_anno_example/src/main/resources/bean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="283" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/resources/bean.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="13" column="75" lean-forward="true" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+            <state relative-caret-position="364">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -185,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day07_spring_init/pom.xml" />
         <option value="$PROJECT_DIR$/day07_spring_init1/pom.xml" />
         <option value="$PROJECT_DIR$/day06_mybatis_many2many/src/test/java/com/test/UserTest.java" />
         <option value="$PROJECT_DIR$/day07_spring_intit1/src/main/java/com/service/AccountService.java" />
@@ -231,11 +188,12 @@
         <option value="$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/utils/ConnectionUtils.java" />
         <option value="$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/utils/TransactionManager.java" />
         <option value="$PROJECT_DIR$/day10_spring_new_anno/pom.xml" />
-        <option value="$PROJECT_DIR$/day10_spring_aop/pom.xml" />
         <option value="$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/AccountService.java" />
         <option value="$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/day10_spring_aop/src/main/java/com/utils/Logger.java" />
         <option value="$PROJECT_DIR$/day10_spring_aop/src/main/resources/bean.xml" />
+        <option value="$PROJECT_DIR$/day10_spring_aop/pom.xml" />
+        <option value="$PROJECT_DIR$/day10_spring_aop/src/test/java/com/text/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -265,13 +223,112 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day09_spring_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -316,44 +373,6 @@
               <item name="day10_spring_aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_spring_aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_spring_aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_spring_aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_spring_aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -370,17 +389,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day10_spring_aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day10_spring_aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="day10_spring_aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573741478394" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573994728376" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/day06_mybatis_many2many" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -391,20 +438,20 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ssm\day10_spring_new_anno\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.test" />
-      <recent name="com.dao" />
-      <recent name="com.pojo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ssm\day10_spring_aop\src\main" />
       <recent name="D:\ssm\day10_spring_new_anno\src\main\resources" />
       <recent name="D:\ssm\day10_spring_new_anno\src\main\java" />
       <recent name="D:\ssm\day10_spring_anno_example\src\main\resources" />
       <recent name="D:\ssm\day10_spring_anno_example\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test" />
+      <recent name="com.dao" />
+      <recent name="com.pojo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ssm\day10_spring_new_anno\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,7 +466,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountServiceTest.testFindAll (2)">
+  <component name="RunManager" selected="JUnit.BaseTest.testAdd">
     <configuration name="AccountServiceTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day10_spring_anno_example" />
       <extension name="coverage">
@@ -468,22 +515,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day09_spring_example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.AccountServiceTest" />
-      <option name="METHOD_NAME" value="testFindAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AccountServiceTest.testTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day10_spring_new_anno" />
       <extension name="coverage">
@@ -495,6 +526,22 @@
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.AccountServiceTest" />
       <option name="METHOD_NAME" value="testTransfer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day10_spring_aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.text" />
+      <option name="MAIN_CLASS_NAME" value="com.text.BaseTest" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -801,11 +848,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BaseTest.testAdd" />
         <item itemvalue="JUnit.AccountServiceTest.testFindAll (2)" />
         <item itemvalue="JUnit.AccountServiceTest.testTransfer" />
         <item itemvalue="JUnit.AccountServiceTest.testFindAll (1)" />
         <item itemvalue="JUnit.AccountServiceTest.testDelete" />
-        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -837,25 +884,11 @@
       <workItem from="1573633620112" duration="6355000" />
       <workItem from="1573647360045" duration="8595000" />
       <workItem from="1573726213885" duration="11789000" />
+      <workItem from="1573990400979" duration="4742000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountServiceTest_testUpdate - 2019.11.14 at 18h 52m 25s.xml">
-      <configuration name="AccountServiceTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountServiceTest_testFindAll - 2019.11.14 at 18h 52m 33s.xml">
-      <configuration name="AccountServiceTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountServiceTest_testFindAll_(1) - 2019.11.14 at 20h 07m 12s.xml">
-      <configuration name="AccountServiceTest.testFindAll (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountServiceTest_testFindAll_(1) - 2019.11.14 at 20h 10m 06s.xml">
-      <configuration name="AccountServiceTest.testFindAll (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountServiceTest_testDelete - 2019.11.14 at 20h 10m 23s.xml">
-      <configuration name="AccountServiceTest.testDelete" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountServiceTest_testFindAll_(1) - 2019.11.14 at 20h 10m 48s.xml">
       <configuration name="AccountServiceTest.testFindAll (1)" configurationId="JUnit" />
     </history-entry>
@@ -871,16 +904,31 @@
     <history-entry file="AccountServiceTest_testFindAll_(2) - 2019.11.14 at 21h 25m 50s.xml">
       <configuration name="AccountServiceTest.testFindAll (2)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BaseTest_testAdd - 2019.11.17 at 20h 17m 53s.xml">
+      <configuration name="BaseTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTest_testAdd - 2019.11.17 at 20h 22m 35s.xml">
+      <configuration name="BaseTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTest_testAdd - 2019.11.17 at 20h 23m 55s.xml">
+      <configuration name="BaseTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTest_testAdd - 2019.11.17 at 20h 25m 24s.xml">
+      <configuration name="BaseTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTest_testAdd - 2019.11.17 at 20h 34m 25s.xml">
+      <configuration name="BaseTest.testAdd" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99044000" />
+    <option name="totallyTimeSpent" value="103786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26119402" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26385927" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -892,7 +940,7 @@
       <window_info anchor="bottom" id="Spring" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.3308026" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.21691974" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -922,23 +970,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day07_spring_intit1/src/main/java/com/dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_spring_annotation/src/main/java/com/service/impl/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_spring_maven/src/main/java/com/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day07_spring_intit1/src/main/resources/bean.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1036,13 +1067,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_spring_maven/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1153,13 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_spring_anno_example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="61" selection-start-line="9" selection-start-column="3" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/pojo/Account.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1194,13 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_spring_anno_example/src/test/java/com/test/AccountServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" selection-start-line="12" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/src/test/java/com/test/AccountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -1221,15 +1231,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/src/main/java/com/utils/ConnectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="754">
           <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#186#198#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1241,12 +1255,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/src/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1255,41 +1265,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/impl/AccountServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/day10_spring_anno_example/src/test/java/com/test/AccountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/utils/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_spring_new_anno/src/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_spring_aop/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="494">
+          <caret line="19" column="78" selection-start-line="15" selection-start-column="6" selection-end-line="19" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day10_spring_anno_example/src/main/resources/bean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="283" />
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09_spring_maven/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09_spring_annotation/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09_spring_annotation/src/main/java/com/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/utils/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/resources/bean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="13" column="75" lean-forward="true" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+        <state relative-caret-position="364">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/main/java/com/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_spring_anno_example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_spring_aop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_spring_aop/src/test/java/com/text/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
