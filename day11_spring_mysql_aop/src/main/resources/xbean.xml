@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--配置Service对象-->
+    <bean id="accountService" class="com.service.impl.AccountServiceImpl"/>
+
+
+    <!--配置aop-->
+
+    <aop:config>
+        <!--配置切面-->
+        <aop:pointcut id="pt1" expression="execution( * com.service.impl.AccountServiceImpl.*(..))"></aop:pointcut>
+        <aop:aspect id="logAdvice" ref="logger">
+            <!--配置通知的类型，并且建立通知方法和切入点方法的关联-->
+            <!--<aop:before method="beforePrintLog" pointcut="execution( * com.service.impl.AccountServiceImpl.*(..))"></aop:before>-->
+            <!--<aop:after-returning method="returnPrintLog" pointcut="execution( * com.service.impl.AccountServiceImpl.*(..))"></aop:after-returning>-->
+            <!--<aop:after-throwing method="throwingPrintLog" pointcut="execution( * com.service.impl.AccountServiceImpl.*(..))"></aop:after-throwing>-->
+            <!--<aop:after method="afterPrintLog" pointcut="execution( * com.service.impl.AccountServiceImpl.*(..))"></aop:after>-->
+
+            <!--配置环绕通知 -->
+            <aop:around method="aroundPrintLog" pointcut="execution( * com.service.impl.AccountServiceImpl.*(..))"></aop:around>
+
+        </aop:aspect>
+    </aop:config>
+
+
+
+
+
+
+</beans>

@@ -25,6 +25,21 @@
                   method:用于指定logger中哪个方法是前置通知
                   pointcut属性：用于指定切入点表达式，该表达式的含义指的是对业务层中哪些方法增强
     -->
+    <!--切入点表达式的写法
+       访问修饰符可以省略
+       返回值可以用*代替，
+       包名可以使用*.代替，*..可以代替任意包
+       类名和方法名都可以用*来代替
+       参数列表：
+          可以直接写数据类型
+             基本类型直接写名称  int
+             引用类型用包名.类名来代替
+             .. 表示有无参数均可
+
+       全通配写法：
+          * *..*.*(..)
+
+    -->
     <!--把通知bean也交给spring处理-->
     <bean id="logger" class="com.utils.Logger" />
 
@@ -33,10 +48,9 @@
     <aop:config>
         <!--配置切面-->
         <aop:aspect id="logAdvice" ref="logger">
-
+            <!--配置通知的类型，并且建立通知方法和切入点方法的关联-->
             <aop:before method="printLog" pointcut="execution(public void com.service.impl.AccountServiceImpl.addAccount())"></aop:before>
         </aop:aspect>
-
     </aop:config>
 
 

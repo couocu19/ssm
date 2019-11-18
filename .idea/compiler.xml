@@ -20,6 +20,8 @@
         <module name="day10_spring_anno_example" />
         <module name="day10_spring_aop" />
         <module name="day10_spring_new_anno" />
+        <module name="day11_spring_adviceType" />
+        <module name="day11_spring_mysql_aop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,6 +42,8 @@
       <module name="day10_spring_anno_example" target="1.5" />
       <module name="day10_spring_aop" target="1.5" />
       <module name="day10_spring_new_anno" target="1.5" />
+      <module name="day11_spring_adviceType" target="1.5" />
+      <module name="day11_spring_mysql_aop" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

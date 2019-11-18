@@ -16,6 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/day10_spring_anno_example/day10_spring_anno_example.iml" filepath="$PROJECT_DIR$/day10_spring_anno_example/day10_spring_anno_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/day10_spring_aop/day10_spring_aop.iml" filepath="$PROJECT_DIR$/day10_spring_aop/day10_spring_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/day10_spring_new_anno/day10_spring_new_anno.iml" filepath="$PROJECT_DIR$/day10_spring_new_anno/day10_spring_new_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day11_spring_adviceType/day11_spring_adviceType.iml" filepath="$PROJECT_DIR$/day11_spring_adviceType/day11_spring_adviceType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day11_spring_mysql_aop/day11_spring_mysql_aop.iml" filepath="$PROJECT_DIR$/day11_spring_mysql_aop/day11_spring_mysql_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ssm.iml" filepath="$PROJECT_DIR$/.idea/ssm.iml" />
     </modules>
   </component>
