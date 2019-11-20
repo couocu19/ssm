@@ -22,6 +22,8 @@
         <module name="day10_spring_new_anno" />
         <module name="day11_spring_adviceType" />
         <module name="day11_spring_mysql_aop" />
+        <module name="day12_spring_txmanager" />
+        <module name="day12_springmvc_init" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -44,6 +46,8 @@
       <module name="day10_spring_new_anno" target="1.5" />
       <module name="day11_spring_adviceType" target="1.5" />
       <module name="day11_spring_mysql_aop" target="1.5" />
+      <module name="day12_spring_txmanager" target="1.5" />
+      <module name="day12_springmvc_init" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

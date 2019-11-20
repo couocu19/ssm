@@ -7,7 +7,7 @@
 
     <bean id="accountDao" class="com.dao.impl.AccountDaoImpl">
         <property name="dataSource" ref="dataSource"></property>
-
+        
     </bean>
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
