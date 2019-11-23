@@ -5,12 +5,11 @@
        xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-
-
     <!--开启注解扫描-->
     <context:component-scan base-package="com"/>
     <!--视图解析器对象-->
     <!--帮助跳转到指定页面 -->
+
     <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
@@ -24,12 +23,10 @@
         </property>
     </bean>
 
+
+
     <!--开启springMVC框架注解的支持-->
-
     <mvc:annotation-driven conversion-service="conversionService"/>
-
-
-
     <!--开启SpringMvc框架注解的支持-->
     <mvc:annotation-driven/>
 

@@ -4,7 +4,6 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-
   <!--z注意配置的顺序要写对-->
   <filter>
     <filter-name>characterEncodingFilter</filter-name>
@@ -14,7 +13,11 @@
       <param-name>encoding</param-name>
       <param-value>UTF-8</param-value>
     </init-param>
-  </filter>
+    <init-param>
+      <param-name>forceEncoding</param-name>
+      <param-value>true</param-value>
+    </init-param>
+   </filter>
   <filter-mapping>
     <filter-name>characterEncodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
@@ -29,6 +32,7 @@
       <param-name>contextConfigLocation</param-name>
       <param-value>classpath:springMvc.xml</param-value>
     </init-param>
+    <!--使系统在启动时装在servlet而不是第一个servlet被访问-->
     <load-on-startup>1</load-on-startup>
   </servlet>
 

@@ -13,7 +13,7 @@
 <body>
     <%--常用注解--%>
     <h3>常用注解测试</h3> <br>
-    <a href="/testRequestparam?username=coucou">点我点我点我</a>
+    <a href="anno/testRequestparam?username=coucou">点我点我点我</a>
 
 </body>
 </html>
