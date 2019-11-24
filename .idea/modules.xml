@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/day11_spring_mysql_aop/day11_spring_mysql_aop.iml" filepath="$PROJECT_DIR$/day11_spring_mysql_aop/day11_spring_mysql_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/day12_spring_txmanager/day12_spring_txmanager.iml" filepath="$PROJECT_DIR$/day12_spring_txmanager/day12_spring_txmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/day12_springmvc_init/day12_springmvc_init.iml" filepath="$PROJECT_DIR$/day12_springmvc_init/day12_springmvc_init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_ssm_init2/day13_ssm_init2.iml" filepath="$PROJECT_DIR$/day13_ssm_init2/day13_ssm_init2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ssm.iml" filepath="$PROJECT_DIR$/.idea/ssm.iml" />
     </modules>
   </component>

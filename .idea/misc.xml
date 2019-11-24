@@ -3,6 +3,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/day07_spring_init1" />
     <file type="web" url="file://$PROJECT_DIR$/day12_springmvc_init" />
+    <file type="web" url="file://$PROJECT_DIR$/day13_ssm_init" />
+    <file type="web" url="file://$PROJECT_DIR$/day13_ssm_init2" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -28,7 +30,11 @@
         <option value="$PROJECT_DIR$/day11_spring_mysql_aop/pom.xml" />
         <option value="$PROJECT_DIR$/day12_spring_txmanager/pom.xml" />
         <option value="$PROJECT_DIR$/day12_springmvc_init/pom.xml" />
+        <option value="$PROJECT_DIR$/day13_ssm_init2/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/day13_ssm_init1/src/main/webapp/index.jsp" />
   </component>
 </project>

@@ -24,6 +24,7 @@
         <module name="day11_spring_mysql_aop" />
         <module name="day12_spring_txmanager" />
         <module name="day12_springmvc_init" />
+        <module name="day13_ssm_init2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,6 +49,9 @@
       <module name="day11_spring_mysql_aop" target="1.5" />
       <module name="day12_spring_txmanager" target="1.5" />
       <module name="day12_springmvc_init" target="1.8" />
+      <module name="day13_ssm_init" target="1.5" />
+      <module name="day13_ssm_init1" target="1.5" />
+      <module name="day13_ssm_init2" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
