@@ -18,13 +18,18 @@
         <module name="day09_spring_example" />
         <module name="day09_spring_maven" />
         <module name="day10_spring_anno_example" />
-        <module name="day10_spring_aop" />
         <module name="day10_spring_new_anno" />
         <module name="day11_spring_adviceType" />
         <module name="day11_spring_mysql_aop" />
         <module name="day12_spring_txmanager" />
         <module name="day12_springmvc_init" />
         <module name="day13_ssm_init2" />
+      </profile>
+      <profile name="Annotation profile for day10_spring_aop" enabled="true">
+        <sourceOutputDir name="../../day10_spring_aop/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../day10_spring_aop/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day10_spring_aop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -51,7 +56,7 @@
       <module name="day12_springmvc_init" target="1.8" />
       <module name="day13_ssm_init" target="1.5" />
       <module name="day13_ssm_init1" target="1.5" />
-      <module name="day13_ssm_init2" target="1.7" />
+      <module name="day13_ssm_init2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
