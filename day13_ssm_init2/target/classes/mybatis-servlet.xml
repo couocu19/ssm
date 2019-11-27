@@ -32,9 +32,6 @@
     <!-- 配置注解处理器适配器 -->
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>
 
-    <!--过滤静态资源-->
-    <!--<mvc:resources location="/css/">-->
-
     <!--开启SpringMvc注解支持-->
     <mvc:annotation-driven/>
 

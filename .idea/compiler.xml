@@ -25,12 +25,6 @@
         <module name="day12_springmvc_init" />
         <module name="day13_ssm_init2" />
       </profile>
-      <profile name="Annotation profile for day10_spring_aop" enabled="true">
-        <sourceOutputDir name="../../day10_spring_aop/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../day10_spring_aop/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="day10_spring_aop" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="day02_mybatis" target="1.5" />

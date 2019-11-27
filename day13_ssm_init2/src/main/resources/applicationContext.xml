@@ -31,7 +31,7 @@
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <!-- mysql url -->
         <property name="url"
-                  value="jdbc:mysql://localhost:3306/mybaits"></property>
+                  value="jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC"></property>
         <!-- 驱动 -->
         <property name="driverClassName"
                   value="com.mysql.jdbc.Driver"></property>
@@ -40,28 +40,35 @@
         <property name="password" value="123456"></property>
     </bean>
 
-    <!-- 创建数据库映射器，扫描包下所有接口，并为其创建动态代理类 -->
-    <!--<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
-        <!--<property name="basePackage" value="com.dao" />-->
-    <!--</bean>-->
+    <!--配置SqlSessionFactory工厂-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
 
-    <!-- 配置 Mybatis 的 SqlSessionFactory -->
-    <!--<bean id="sqlSessionFactory"-->
-          <!--class="org.mybatis.spring.SqlSessionFactoryBean">-->
-        <!--&lt;!&ndash; 指定数据库环境 &ndash;&gt;-->
-        <!--<property name="dataSource" ref="dataSource"></property>-->
-        <!--&lt;!&ndash; 指定Mybatis配置文件 &ndash;&gt;-->
-        <!--<property name="configLocation"-->
-                  <!--value="classpath:mybatis-config.xml"></property>-->
-        <!--&lt;!&ndash; 指定Mybatis映射文件，*.xml 会匹配所有xml文件 &ndash;&gt;-->
-        <!--&lt;!&ndash; <property name="mapperLocations" value="classpath:com/project/mapper/*.xml"></property> &ndash;&gt;-->
-    <!--</bean>-->
+    <!--配置AccountDao所在的包-->
+    <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.dao"/>
+    </bean>
 
     <!-- 创建事务管理器：针对jdbc或Mybatis的事务管理器 -->
-    <!--<bean id="transactionManager"-->
-          <!--class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
-        <!--&lt;!&ndash; 指定环境， name的dataSource是固定写法，ref是前面创建的环境id &ndash;&gt;-->
-        <!--<property name="dataSource" ref="dataSource"></property>-->
-    <!--</bean>-->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+         <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--配置事务通知-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="find*" read-only="true"/>
+            <tx:method name="*" isolation="DEFAULT"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--配置aop增强-->
+    <aop:config>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.service.impl.AccountServiceImpl.*(..))"/>
+    </aop:config>
+
+
 
 </beans>

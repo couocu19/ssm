@@ -43,8 +43,6 @@
   </filter-mapping>
 
   <!-- ===================== Spring配置 ===================== -->
-  <!-- 配置spring环境 -->
-
   <!-- 使用过滤器加载spring配置文件 -->
   <!--启动tomcat的时候需要加载spring的配置文件-->
   <listener>
@@ -55,6 +53,5 @@
     <param-name>contextConfigLocation</param-name>
     <param-value>classpath:applicationContext.xml</param-value>
   </context-param>
-
 
 </web-app>

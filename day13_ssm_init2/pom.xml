@@ -40,13 +40,29 @@
       <version>2.3.1</version>
       <scope>provided</scope>
     </dependency>
+    <!--<dependency>-->
+      <!--<groupId>javax.servlet</groupId>-->
+      <!--<artifactId>jstl</artifactId>-->
+      <!--<version>1.2</version>-->
+    <!--</dependency>-->
     <dependency>
-      <groupId>javax.servlet</groupId>
+      <groupId>jstl</groupId>
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
 
+    <!--<dependency>-->
+      <!--<groupId>javax.servlet</groupId>-->
+      <!--<artifactId>jstl</artifactId>-->
+      <!--<version>1.2</version>-->
+    <!--</dependency>-->
+
     <!--集成mybatis-->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.4.5</version>
+    </dependency>
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis-spring</artifactId>
@@ -57,6 +73,13 @@
       <artifactId>log4j</artifactId>
       <version>1.2.12</version>
     </dependency>
+    <dependency>
+      <groupId>c3p0</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.1.2</version>
+    </dependency>
+
+
     <dependency>
 
       <groupId>org.aspectj</groupId>
@@ -80,6 +103,9 @@
       <version>1.9.4</version>
 
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
+
     <!--集成spring-->
     <dependency>
       <groupId>org.springframework</groupId>
@@ -133,11 +159,11 @@
       <version>8.0.17</version>
     </dependency>
 
-    <dependency>
-      <groupId>c3p0</groupId>
-      <artifactId>mabatis-spring</artifactId>
-      <version>1.3.0</version>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>c3p0</groupId>-->
+      <!--<artifactId>mabatis-spring</artifactId>-->
+      <!--<version>1.3.0</version>-->
+    <!--</dependency>-->
   </dependencies>
 
   <!--避免使用不同版本的组件导致意外情况发生，在使用spring依赖时就不需要在配置每个依赖的版本号了-->

@@ -8,6 +8,7 @@ import java.util.List;
 
 public class AccountServiceImpl implements AccountService {
 
+
     private AccountDao accountDao;
 
     public void setAccountDao(AccountDao accountDao) {
